@@ -1,0 +1,6 @@
+# backend/requirements.txt
+Flask==2.3.3
+Flask-Cors==4.0.0
+Werkzeug==2.3.7
+PyJWT==2.8.0
+pytest

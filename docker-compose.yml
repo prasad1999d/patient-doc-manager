@@ -1,0 +1,26 @@
+services:
+  backend:
+    build: ./backend
+    container_name: backend-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - backend_uploads:/app/uploads
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build: ./frontend
+    container_name: frontend-ui
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  backend_uploads:
