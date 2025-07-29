@@ -96,7 +96,8 @@ pytest test_app.py
 
 | Upload | View Documents |
 |--------|----------------|
-| ![Upload](./screenshots/upload.png) | ![List](./screenshots/list.png) |
+url to for UI preview
+(https://github.com/prasad1999d/patient-doc-manager/blob/main/screenshots/upload.png))
 
 ---
 
