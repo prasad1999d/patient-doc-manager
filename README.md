@@ -93,11 +93,8 @@ pytest test_app.py
 ---
 
 ## 📷 UI Preview
-
-| Upload | View Documents |
-|--------|----------------|
 url to for UI preview
-(https://github.com/prasad1999d/patient-doc-manager/blob/main/screenshots/upload.png))
+(https://github.com/prasad1999d/patient-doc-manager/blob/main/screenshots/))
 
 ---
 
